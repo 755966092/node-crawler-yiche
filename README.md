@@ -1,5 +1,9 @@
 # 启动
+```
+    node crawler/yiche.js
+```
 
+项目我没有控制并发, 很快就会请求完
 
 # 配置文件config.js
 
@@ -20,11 +24,4 @@ module.exports = {
         rateLimit: 500,
     },
 }
-```
-
-# 命令行指令
-```
--a, --all: 抓取全部数据
--p, --page <n>: 抓取前n页数据
--o, --one <n>: 抓取前n条数据
 ```

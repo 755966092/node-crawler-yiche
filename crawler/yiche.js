@@ -77,6 +77,7 @@ function downImg(link, name) {
             } else {
                 imgNum++;
                 fs.createWriteStream(root_path + '/images/' + name+'.png').write(res.body);
+                console.log('下载成功: %d', imgNum);
                 end();
             }
             done();
